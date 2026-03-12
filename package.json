@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "order-share-bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env --loader ts-node/esm bot.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "@types/node-fetch": "^2.6.13",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "grammy": "^1.41.1",
+    "ts-node": "^10.9.2"
+  }
+}
